@@ -18,7 +18,7 @@ resolvers ++= Seq(
 
 
 initialCommands := """|import akka.actor._
-                      |import akka.pattern._
+                      |import akka.stream.scaladsl._
                       |import akka.util._
                       |import scala.concurrent._
                       |import scala.concurrent.duration._""".stripMargin
